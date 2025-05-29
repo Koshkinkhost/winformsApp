@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "u9nGcnXMNYMGnmxKHULmSuH3iea7rC+bSNpsStMBzoVZycMWxc6dcoYiZ4ZQDGaQe6e3K+H3b6n8tACx9LAFkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\boris\\OneDrive\\Рабочий стол\\Репетиторство\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\boris\\.nuget\\packages\\documentformat.openxml\\3.3.0\\documentformat.openxml.3.3.0.nupkg.sha512",
+    "C:\\Users\\boris\\.nuget\\packages\\documentformat.openxml.framework\\3.3.0\\documentformat.openxml.framework.3.3.0.nupkg.sha512",
+    "C:\\Users\\boris\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
