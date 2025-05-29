@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             label1 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
@@ -45,20 +44,6 @@
             comboBox1 = new ComboBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(192, 192, 255);
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI", 19.875F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            button1.Location = new Point(813, 449);
-            button1.Margin = new Padding(2);
-            button1.Name = "button1";
-            button1.Size = new Size(190, 54);
-            button1.TabIndex = 0;
-            button1.Text = "Нажать";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -171,6 +156,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = Color.DarkCyan;
             menuStrip1.ImageScalingSize = new Size(32, 32);
             menuStrip1.Items.AddRange(new ToolStripItem[] { save_menu_strip });
             menuStrip1.Location = new Point(0, 0);
@@ -207,6 +193,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightBlue;
             ClientSize = new Size(1089, 554);
             Controls.Add(comboBox1);
             Controls.Add(label5);
@@ -219,7 +206,6 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Controls.Add(button1);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             MainMenuStrip = menuStrip1;
@@ -234,8 +220,6 @@
         }
 
         #endregion
-
-        private Button button1;
         private Label label1;
         private TextBox textBox1;
         private TextBox textBox2;
